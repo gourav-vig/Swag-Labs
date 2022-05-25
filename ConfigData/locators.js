@@ -1,0 +1,23 @@
+module.exports = {
+    usernameXpath: '//*[@placeholder="Username"]',
+    passwordXpath: '//*[@placeholder="Password"]',
+    loginbuttonXpath: '//*[@type="submit"]',
+    errorresultXpath: '//*[@data-test="error"]',
+    dropdownlinkXpath: '//*[@data-test="product_sort_container"]',
+    dataXpath: '(//*[@class="inventory_item"])[1]//div[2]//a//div',
+    price1Xpath: '((//*[@class="inventory_item"])[1]//div[2])[2]//div',
+    price2Xpath: '((//*[@class="inventory_item"])[2]//div[2])[2]//div',
+    addcartlinkXpath: '(//*[text()="Add to cart"])[1]',
+    cartlinkXpath: '//*[@id="shopping_cart_container"]//a',
+    checkoutbuttonXpath: '//*[@id="checkout"]',
+    continueshopXpath: '//*[@id="continue-shopping"]',
+    removebuttonXpath: '//*[text()="Remove"]',
+    firstnameXpath: '//*[@id="first-name"]',
+    lastnameXpath: '//*[@id="last-name"]',
+    postcodeXpath: '//*[@id="postal-code"]',
+    continuebuttonXpath: '//*[@id="continue"]',
+    cancelbuttonXpath: '//*[@id="cancel"]',
+    finishbuttonXpath: '//*[@id="finish"]',
+    backhomebuttonXpath: '//*[text()="Back Home"]',
+    titleXpath: '//*[@class="title"]'
+}
